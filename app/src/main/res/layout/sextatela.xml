@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".SextaActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/poco" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/o_po_o_dublado"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/_2019_1h_34minutos" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/fic_o_cient_fica_terror" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="@string/r_19_99" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                    <Button
+                        android:id="@+id/button14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="Comprar"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/textView18"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_star_black_24dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4,9"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toStartOf="@+id/imageView13"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="33dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Descrição"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text="@string/o_po_o_conta_a_hist_ria_de_um_lugar_misterioso_uma_pris_o_indescrit_vel_um_buraco_profundo_dois_reclusos_que_vivem_em_cada_n_vel_um_n_mero_desconhecido_de_n_veis_uma_plataforma_descendente_contendo_comida_para_todos_eles" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/comentarios"
+                android:textSize="18sp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButtonVoltar3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="voltar5"
+                app:backgroundTint="@color/colorPrimaryDark"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@android:drawable/ic_media_rew"
+                android:focusable="true" />
+
+                <ImageView
+                    android:id="@+id/imageView28"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView31"
+                    app:layout_constraintTop_toBottomOf="@+id/textView22"
+                    app:srcCompat="@drawable/ic_star_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/imageView33"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView28"
+                    app:srcCompat="@drawable/ic_star_black_24dp"
+                    tools:layout_editor_absoluteY="29dp" />
+
+                <ImageView
+                    android:id="@+id/imageView30"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView32"
+                    app:layout_constraintTop_toBottomOf="@+id/textView22"
+                    app:srcCompat="@drawable/ic_star_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/imageView31"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView30"
+                    app:layout_constraintTop_toBottomOf="@+id/textView22"
+                    app:srcCompat="@drawable/ic_star_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/imageView32"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView14"
+                    app:layout_constraintTop_toBottomOf="@+id/textView22"
+                    app:srcCompat="@drawable/ic_star_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_person_black_24dp" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/um_usuario_do_google"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView14"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="@string/_24_de_mar_o_de_2020"
+                    app:layout_constraintStart_toEndOf="@+id/imageView33"
+                    app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+                <LinearLayout
+                    android:layout_width="390dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView24"
+                    tools:ignore="ExtraText">
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/vale_muito_a_pena_mas_n_o_um_filme_para_todos_filme_com_cenas_fortes_para_quem_tem_est_mago_fraco_um_filme_para_ser_interpretado_e_n_o_simplesmente"
+                         />
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
